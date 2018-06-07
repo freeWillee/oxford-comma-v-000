@@ -12,7 +12,7 @@ def oxford_comma(array)
   else
     i = 0
     while i < array.length
-      new_string << (array.join(", ")
+      new_string << (array[i])
       i += 1
     end
 
