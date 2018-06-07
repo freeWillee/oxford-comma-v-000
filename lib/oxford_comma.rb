@@ -17,7 +17,8 @@ def oxford_comma(array)
     end
 
     new_string << array[i]
+    binding.pry
+    return new_string
   end
-  binding.pry
-  return new_string
+
 end
