@@ -1,6 +1,7 @@
 require 'pry'
 
 def oxford_comma(array)
+  new_string = ""
   case array.length
   when 1
     new_string = array.join
