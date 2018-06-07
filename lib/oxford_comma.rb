@@ -15,7 +15,7 @@ def oxford_comma(array)
       new_string += (array[i])
       i += 1
     end
-
+    binding.pry
     new_string += array[i]
     binding.pry
     return new_string
